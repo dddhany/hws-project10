@@ -12,6 +12,7 @@
 		E4ECFC801C9D857600BAABFE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4ECFC7E1C9D857600BAABFE /* Main.storyboard */; };
 		E4ECFC821C9D857600BAABFE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4ECFC811C9D857600BAABFE /* Assets.xcassets */; };
 		E4ECFC851C9D857600BAABFE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4ECFC831C9D857600BAABFE /* LaunchScreen.storyboard */; };
+		E4ECFC8D1C9D8E2500BAABFE /* PersonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4ECFC8C1C9D8E2500BAABFE /* PersonCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		E4ECFC811C9D857600BAABFE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E4ECFC841C9D857600BAABFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E4ECFC861C9D857600BAABFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E4ECFC8C1C9D8E2500BAABFE /* PersonCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				E4ECFC811C9D857600BAABFE /* Assets.xcassets */,
 				E4ECFC831C9D857600BAABFE /* LaunchScreen.storyboard */,
 				E4ECFC861C9D857600BAABFE /* Info.plist */,
+				E4ECFC8C1C9D8E2500BAABFE /* PersonCell.swift */,
 			);
 			path = project10;
 			sourceTree = "<group>";
@@ -96,6 +99,7 @@
 				TargetAttributes = {
 					E4ECFC761C9D857600BAABFE = {
 						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 82G92NCYJ7;
 					};
 				};
 			};
@@ -135,6 +139,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E4ECFC8D1C9D8E2500BAABFE /* PersonCell.swift in Sources */,
 				E4ECFC7D1C9D857600BAABFE /* ViewController.swift in Sources */,
 				E4ECFC7B1C9D857600BAABFE /* AppDelegate.swift in Sources */,
 			);
@@ -247,7 +252,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = project10/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.dhany.project10;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -258,7 +265,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = project10/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.dhany.project10;
 				PRODUCT_NAME = "$(TARGET_NAME)";
